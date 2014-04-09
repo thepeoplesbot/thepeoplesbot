@@ -87,7 +87,8 @@ img.grayscale {
    font-size:28px;
    border-color:#eeeeee;
    padding:15px;
-   background-color:transparent;
+    background:#0061B2;
+/*   background-color:transparent;*/
    color:#ffffff;
 }
 
@@ -132,17 +133,23 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background: #f68076 url('http://www.bootply.com/assets/example/pt_topo_l.png') repeat center center fixed;
+  background: #f68076 url('images/header_image.jpg') center center fixed no-repeat;
+/*    background-size:100%;*/
 }
 
 /* use alt in navbar and header for different color */
 
 .alt {
-  background-color: #28ACC9;
+    background-color:#dca862;
+/*  background-color: #28ACC9;*/
 }
 
 .alt .lead {
-  color: #3B0496;
+  color: #0061B2;
+  background:#fff;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    border-radius:10px;
 }
 
 .alt.affix {
@@ -150,7 +157,7 @@ img.grayscale {
 }
 
 .alt li a:hover, .alt li.active {
-  background-color:#5D17BA;
+  background-color:#0061B2;
 }
 
 
@@ -260,9 +267,14 @@ footer {
 <div class="header alt vert">
   <div class="container">
     
-    <h1>The People's Bot</h1>
-      <p class="lead">Broadening Access to CHI For Those Who Can't Attend</p>
+    <h1>The People&#8217;s Bot</h1>
+      <p class="lead">Broadening Access to CHI For Those Who Can&#8217;t Attend</p>
       <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      
       <a href="#" class="btn btn-default btn-lg">Apply Here</a>
   </div>
 </div>
@@ -388,10 +400,13 @@ footer {
           <p>Include information about applying, including basic rules.</p>
           <h2>Student Scholarships</h2>
           <p>Include basic information about student scholarships, and a link to the form.</p>
+          <p><a class="btn btn-primary" href="https://docs.google.com/forms/d/1j36OhouxoZD7FWfWH6tLJfVYpJbAftOGBqOoXkVkYWo/viewform" target="_blank">Apply for a Student Scholarship</a></p>
           <h2>Media Fellowships</h2>
           <p>Include information about the fellowships, with a link to the form.</p>
+          <a class="btn btn-primary" href="https://docs.google.com/forms/d/1vdzh07FlDEZEixDZg_mK-DPimh9bu9bi0npWsaNqh40/viewform" target="_blank">Apply for a Student Scholarship</a>
           <h2>Everyone Else</h2>
           <p>Include information about the Ebay listing.</p>
+          <p><a class="btn btn-primary">The Peoples Bot on Ebay</a></p>
       </div>
     </div>
   </div>
